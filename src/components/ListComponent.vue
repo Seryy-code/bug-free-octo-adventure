@@ -18,10 +18,4 @@ ol {
   width: 100px;
   text-align: center;
 }
-ol li {
-  border-bottom: 1px solid black;
-}
-ol li:last-child {
-  border: none;
-}
 </style>

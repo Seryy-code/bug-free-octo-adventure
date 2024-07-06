@@ -25,15 +25,4 @@ export default {
 };
 </script>
 
-<style scoped>
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.clicked {
-  background-color: #4caf50; /* Зеленый фон */
-  color: white; /* Белый текст */
-  transition: 0.1s ease-in;
-}
-</style>
+<style scoped></style>

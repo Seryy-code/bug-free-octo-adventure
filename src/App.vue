@@ -24,6 +24,7 @@
     5 Обработка событий: Добавьте обработчик события на кнопку, который изменяет
     данные компонента Vue при клике.
   </h3>
+  <ContainerFigureComponent />
 </template>
 
 <script>
@@ -31,6 +32,7 @@ import ButtonComponent from "./components/ButtonComponent.vue";
 import ListComponent from "./components/ListComponent.vue";
 import FormComponent from "./components/FormComponent.vue";
 import MathComponent from "./components/MathComponent.vue";
+import ContainerFigureComponent from "./emits/ContainerFigureComponent.vue";
 
 export default {
   name: "App",
@@ -39,17 +41,24 @@ export default {
     ListComponent,
     FormComponent,
     MathComponent,
+    ContainerFigureComponent,
   },
 };
 </script>
 
 <style>
 #app {
+  width: 70%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
   margin-top: 60px;
+  margin: auto;
+}
+button {
+  padding: 10px 30px;
+  cursor: pointer;
 }
 </style>
